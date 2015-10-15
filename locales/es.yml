@@ -1,0 +1,18 @@
+es:
+    site:
+        name: "Kleer en vivo!"
+        tagline: 
+        description: "<p>Una descripción que soporta <b>html</b>"
+        twittercard:
+            description: "Una descripción que no soporta HTML."
+    comments: "Comentarios"
+    published_under: "Publicado en"
+    tags: "Tags"
+    view_other_tags: "Ver otras publicaciones en"
+    view_more: "Ver más"
+    navigation:
+        followus: Seguinos!
+
+
+
+

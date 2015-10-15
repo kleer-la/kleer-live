@@ -1,0 +1,3 @@
+es|2014-07-09|Nombre de la Sesión|Link|Conferencia|Ciudad|País 1 
+en|2014-07-12|Session Name|Link|Conference Name|City|Country 2
+es|2014-07-19|Nombre de la Sesión 2|Link|Conferencia|Ciudad|País 2

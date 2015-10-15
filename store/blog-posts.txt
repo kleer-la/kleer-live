@@ -1,0 +1,13 @@
+es|2015-10-7|que-es-extreme-programming|¿Qué es Extreme Programming?|/img/blog-posts/blindfolded.jpg|4nN6Gh79Yg8|Martín Salías hace una recorrida por las prácticas principales de Extreme Programming en menos de 3 minutos|Extreme Programming, Martín Salías, XP, Desarrollo ágil de software, software development, Kleer 
+
+es|2015-10-9|que-es-scrum|¿Qué es Scrum?|/img/blog-posts/blindfolded.jpg|IWUG29VPhUA|Martín Alaimo nos comparte una descripción de Scrum en menos de 5 minutos.|Scrum, Metodologías Ágiles, Agile, Martín Alaimo, Kleer, Equipos de desarrollo, Software development, ScrumMaster, Product Owner, Product Backlog, Sprint, Retrospectiva
+
+es|2015-10-8|i12-principios-agiles|Los 12 Principios Ágiles|/img/blog-posts/blindfolded.jpg|8lzJmuLX_M8|Pablo Tortorella nos ofrece una descripción gráfica y detallada de los 12 principios del Manifiesto Ágil en menos de 10 minutos|Scrum, Metodologías Ágiles, Agile, Pablo Tortorella, Manifiesto Ágil, Trabajo de equipo, Desarrollo incremental, Desarrollo de producto, Gestión de proyectos, Gestión ágil de proyectos
+
+es|2015-9-7|scrum-equipos-desarrollo|Scrum y Equipos de Desarrollo|/img/blog-posts/blindfolded.jpg|vjuvZVDefSM|En esta charla con Martín Alaimo ahondamos en el rol de los equipos de desarrollo y el trabajo colaborativo.|Scrumm, Metodologías Ágiles, Agile, Martín Alaimo, Kleer, Equipos de desarrollo, Software Development, Team Management 
+
+es|2015-9-7|metodos-tradicionales-vs-scrum|Gestión de proyectos: Métodos Tradicionales vs. Scrum|/img/blog-posts/blindfolded.jpg|SOQ1p26C4qI|En este video Martín Alaimo nos comenta acerca de las diferencias entre la aplicación de los métodos tradicionales y el framework Scrum para la realización de proyectos complejos.|Scrum, Metodologías Ágiles, Agile, Martín Alaimo, Kleer, CYNEFIN, Gestión de Proyectos, Trabajo en Equipo
+
+es|2015-05-5|intoduccion-less|Introducción a LeSS (Large Scale Scrum) por Martín Salías|/img/blog-posts/blindfolded.jpg|Egujr46zULU|Video de presentación de la sesión "Introducción a Less", que tendrá lugar en la 8va Jornada Latinoamericana de Metodologías Ágiles 2015.|Less, Scrum, Martín Salías, Pablo Tortorella, Kleer, Metodologías Ágiles, Agile, Software development 
+
+es|2015-02-15|islas-de-felicidad|#IslasDeFelicidad - Webinar con Pablo Tortorella y Jordi Falguera|/img/blog-posts/blindfolded.jpg|8lzJmuLX_M8|En este webinar Pablo Tortorella y Jordi Falgueras hablan respecto a cómo generar un tipo de ambiente humano único en tu vida laboral, las "Islas de Felicidad".|Principios ágiles,Webinar,Pablo Tortorella,Kleer,Sostenibilidad,Trabajo de equipo,Transformación organizacional,Kotter,ADKAR,Lean Change,Lean,Change Management,Agile

@@ -1,0 +1,3 @@
+es|trust|Inspeccionar y adaptar las posibilidades personales|Subtítulo|image|2012-09-03|aca va un texto breve catchy|Separados, por comas
+es|factura|Cómo emitir una factura|y no moriri en el intento|image|2012-09-03|aca va un texto breve catchy|Y aca, los tags, Separados, por comas
+en|invoice|Cómo emitir una factura|y no moriri en el intento|image|2012-09-03|aca va un texto breve catchy|Here, the tags
