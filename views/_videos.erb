@@ -1,0 +1,48 @@
+<!-- Videos -->
+    <section id="about" class="block expand left background-color-grey-light">
+        <div class="container">
+            <header>
+                <h2><a href="#about" class="roll">Sesiones Pasadas de Kleer</a></h2>
+            </header>
+            <section class="about">
+
+                <% @blog_posts.each do |key, post| %>
+
+                  <div class="row">
+                    <hr/>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="information">
+                            <div class="date">
+                                <div class="day"><%=post.day%></div>
+                                <div class="divider">/</div>
+                                <div class="month"><%=post.month%></div>
+                                <div class="divider">/</div>
+                                <div class="year"><%=post.year%></div>
+                            </div>
+                            <div class="location" style="white-space: normal;"><%=post.title%></div>
+                            <!-- div class="address">The Bloomsbury Hotel ,16-22 Great Russell St</div -->
+                        </div><!-- .information -->
+                        <hr>
+                        <p><%=post.more%></p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="video">
+                            <iframe width="500" height="280" src="https://www.youtube.com/embed/<%=post.video_code%>" frameborder="0" allowfullscreen></iframe>
+                        </div><!-- .video -->
+                    </div><!-- .col-md-6 -->
+                    <!-- p><a href="/<%=session[:locale]%>/blog/<%=post.codename%>#disqus_thread"><%=t("comments")%></a></p -->
+                    <% if post.tags.size > 0 %>
+                        <%=t("published_under")%>:<br/>
+                        <% post.tags.each do |tag_code, tag_name| %>
+                          <a href="/<%=session[:locale]%>/tag/<%=tag_code%>"><span class="label label-large label-primary"><%= tag_name %></span></a>
+                        <% end %>
+                      <% end %>
+                  </div><!-- .row -->
+              
+                <% end %>
+
+                
+            </section><!-- .about -->
+        </div><!-- .container -->
+    </section>
+    <!-- end Videos -->

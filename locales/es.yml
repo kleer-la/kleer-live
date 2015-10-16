@@ -2,9 +2,9 @@ es:
     site:
         name: "Kleer en vivo!"
         tagline: 
-        description: "<p>Una descripción que soporta <b>html</b>"
+        description: "<p>Nos vamos a Ágiles 2015!</b>"
         twittercard:
-            description: "Una descripción que no soporta HTML."
+            description: "Nos vamos a Ágiles 2015!"
     comments: "Comentarios"
     published_under: "Publicado en"
     tags: "Tags"
