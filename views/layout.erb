@@ -35,7 +35,11 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="navbar-brand nav" id="brand">
-                        <a href="#top"><img src="/img/logo.png" alt="brand"></a>
+                        <% if @active_section == "index" %>
+                            <a href="#top"><img src="/img/logo.png" alt="brand"></a>
+                        <% else %>
+                            <a href="/"><img src="/img/logo.png" alt="brand"></a>
+                        <% end %>
                     </div>
                 </div>
                 <div class="navigation-wrapper">
