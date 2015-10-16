@@ -1,3 +1,5 @@
-es|trust|Inspeccionar y adaptar las posibilidades personales|Subtítulo|image|2012-09-03|aca va un texto breve catchy|Separados, por comas
-es|factura|Cómo emitir una factura|y no moriri en el intento|image|2012-09-03|aca va un texto breve catchy|Y aca, los tags, Separados, por comas
-en|invoice|Cómo emitir una factura|y no moriri en el intento|image|2012-09-03|aca va un texto breve catchy|Here, the tags
+es|2015-10-7|que-es-extreme-programming|¿Qué es Extreme Programming?|/img/blog-posts/blindfolded.jpg|4nN6Gh79Yg8|Martín Salías hace una recorrida por las prácticas principales de Extreme Programming en menos de 3 minutos|Extreme Programming, Martín Salías, XP, Desarrollo ágil de software, software development, Kleer 
+
+es|2015-10-9|que-es-scrum|¿Qué es Scrum?|/img/blog-posts/blindfolded.jpg|IWUG29VPhUA|Martín Alaimo nos comparte una descripción de Scrum en menos de 5 minutos.|Scrum, Metodologías Ágiles, Agile, Martín Alaimo, Kleer, Equipos de desarrollo, Software development, ScrumMaster, Product Owner, Product Backlog, Sprint, Retrospectiva
+
+en|2015-10-8|i12-principios-agiles|Los 12 Principios Ágiles|/img/blog-posts/blindfolded.jpg|8lzJmuLX_M8|Pablo Tortorella nos ofrece una descripción gráfica y detallada de los 12 principios del Manifiesto Ágil en menos de 10 minutos|Scrum, Metodologías Ágiles, Agile, Pablo Tortorella, Manifiesto Ágil, Trabajo de equipo, Desarrollo incremental, Desarrollo de producto, Gestión de proyectos, Gestión ágil de proyectos

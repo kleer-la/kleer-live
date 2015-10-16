@@ -15,10 +15,10 @@ describe Store do
   end
   
   it "should have a 'trust' blog-post in spanish" do
-    post = @store.blog_posts("es")["trust"]
-    post.codename.should == "trust"
-    post.title.should == "Inspeccionar y adaptar las posibilidades personales"
-    post.date.should == Date.parse( "2012-09-03" )
+    post = @store.blog_posts("es")["que-es-extreme-programming"]
+    post.codename.should == "que-es-extreme-programming"
+    post.title.should == "¿Qué es Extreme Programming?"
+    post.date.should == Date.parse( "2015-10-7" )
   end
   
   it "should have two blog-post in spanish" do
@@ -33,24 +33,16 @@ describe Store do
    @store.blog_posts("fr").should be nil
   end
 
-  it "should have four tags in spanish" do
-    @store.tags("es").count.should == 4
+  it "should have 16 tags in spanish" do
+    @store.tags("es").count.should == 16
   end
 
-  it "should have two blog-post in spanish with tag por-comas" do
-   @store.blog_posts("es", "por-comas").count.should == 2
+  it "should have two blog-post in spanish with tag kleer" do
+   @store.blog_posts("es", "kleer").count.should == 2
   end
 
-  it "should have one blog-post in spanish with tag los-tags" do
-   @store.blog_posts("es", "los-tags").count.should == 1
-  end
-
-  it "should have two spanish conference" do
-    @store.conferences("es").size.should == 2
-  end
-
-  it "should have one english conference" do
-    @store.conferences("en").size.should == 1
+  it "should have one blog-post in spanish with tag retrospectiva" do
+   @store.blog_posts("es", "retrospectiva").count.should == 1
   end
 
 end
