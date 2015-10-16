@@ -229,9 +229,9 @@ p {
 }
 .about .information .date {
   color: #ff453c;
-  font-size: 115px;
+  font-size: 30px;
   font-weight: bold;
-  margin: -40px 0;
+  /* margin: -40px 0; */
 }
 .about .information .date > div {
   display: inline-block;

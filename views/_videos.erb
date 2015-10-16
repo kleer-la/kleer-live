@@ -13,11 +13,7 @@
                     <div class="col-md-6 col-sm-12">
                         <div class="information">
                             <div class="date">
-                                <div class="day"><%=post.day%></div>
-                                <div class="divider">/</div>
-                                <div class="month"><%=post.month%></div>
-                                <div class="divider">/</div>
-                                <div class="year"><%=post.year%></div>
+                                <%=post.day%>/<%=post.month%>/<%=post.year%>
                             </div>
                             <div class="location" style="white-space: normal;"><%=post.title%></div>
                             <!-- div class="address">The Bloomsbury Hotel ,16-22 Great Russell St</div -->
@@ -31,13 +27,18 @@
                         </div><!-- .video -->
                     </div><!-- .col-md-6 -->
                     <!-- p><a href="/<%=session[:locale]%>/blog/<%=post.codename%>#disqus_thread"><%=t("comments")%></a></p -->
-                    <% if post.tags.size > 0 %>
-                        <%=t("published_under")%>:<br/>
-                        <% post.tags.each do |tag_code, tag_name| %>
-                          <a href="/<%=session[:locale]%>/tag/<%=tag_code%>"><span class="label label-large label-primary"><%= tag_name %></span></a>
-                        <% end %>
-                      <% end %>
                   </div><!-- .row -->
+                  <div class="row">
+                      <div class="col-md-12 col-sm-12">
+                            <% if post.tags.size > 0 %>
+                                    <%=t("published_under")%>:<br/>
+                                    <% post.tags.each do |tag_code, tag_name| %>
+                                      <a href="/<%=session[:locale]%>/tag/<%=tag_code%>"><span class="label label-large label-primary"><%= tag_name %></span></a>
+                                    <% end %>
+                                  <% end %>
+                            </div>
+                        </div>
+                        
               
                 <% end %>
 
