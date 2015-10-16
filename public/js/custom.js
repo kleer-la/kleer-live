@@ -7,7 +7,7 @@ $(document).ready(function($) {
 
     equalHeight('.equal-height');
 
-    $('footer .copyright').css( 'top', $('footer .contact').height() / 2  );
+    //$('footer .copyright').css( 'top', $('footer .contact').height() / 2  );
 
 //  Animations
 
@@ -18,7 +18,7 @@ $(document).ready(function($) {
             $(el).toggleClass('fade-in');
         });
 
-        setTimeout(function() {
+        /* setTimeout(function() {
             $('.slider .fade-in').eachStep(200, function(i, el, duration){
                 $(el).toggleClass('fade-in');
             });
@@ -28,7 +28,7 @@ $(document).ready(function($) {
             $('.slider .move').eachStep(100, function(i, el, duration){
                 $(el).toggleClass('move');
             });
-        }, 100);
+        }, 100); */
     }
 
     var select = $('select');
