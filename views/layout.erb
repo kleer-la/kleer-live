@@ -24,14 +24,8 @@
 <div class="wrapper">
 
     <!-- Navigation -->
-    <div class="navigation fade-in">
-        <div class="container">
-
-                <%= erb(:_navbar, :layout => false) %>
-            
-        </div><!-- /.container -->
-    </div>
-    <!-- end Navigation -->
+    <%= erb(:_navbar, :layout => false) %>
+<!-- end Navigation -->
 
     <% if @active_section == "index" %>
         <!-- Slider -->
