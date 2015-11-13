@@ -1,0 +1,30 @@
+<header class="navbar" role="banner">
+    <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-brand nav" id="brand">
+            <a href="http://kleer.la"><img src="/img/logo.png" alt="brand"></a>
+        </div>
+    </div>
+    <div class="navigation-wrapper">
+        <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+            <ul class="nav navbar-nav">
+                <% if @active_section == "index" %>
+                    <li><a href="#top" class="fade-in">¡Ahora mismo!</a></li>
+                    <li><a href="#schedule" class="fade-in">Sesiones</a></li>
+                    <li><a href="#speakers" class="fade-in">Speakers</a></li>
+                    <li><a href="#about" class="fade-in">Sesiones Pasadas</a></li>
+                <% else %>
+                    <li><a href="/" class="fade-in">¡Ahora mismo!</a></li>
+                    <li><a href="/#schedule" class="fade-in">Sesiones</a></li>
+                    <li><a href="/#speakers" class="fade-in">Speakers</a></li>
+                    <li><a href="/#about" class="fade-in">Sesiones Pasadas</a></li>
+                <% end %>
+            </ul>
+        </nav><!-- /.navbar collapse-->
+    </div>
+</header><!-- /.navbar -->
