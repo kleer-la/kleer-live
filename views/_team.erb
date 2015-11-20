@@ -1,0 +1,29 @@
+<!-- Speakers -->
+<section id="speakers" class="block">
+    <div class="container">
+        <header>
+            <h2><a href="#speakers" class="roll">Speakers de Kleer en Ágiles 2015</a></h2>
+        </header>
+
+        <section class="speakers background-stripe">
+            <div id="owl"class="owl-carousel owl-theme">
+                <% @team.each do |member| %>
+                    <div>
+                        <div class="speaker">
+                            <aside class="image">
+                                <div class="plus-wrapper" data-toggle="modal" data-target="<%=member.data_target%>">
+                                    <div class="plus"><i class="fa fa-plus"></i></div>
+                                </div>
+                                <img src="<%=member.img%>" alt="">
+                            </aside>
+                            <h3><%=member.name%></h3>
+                            <h4><%=member.rol%></h4>
+                            <h4><%=member.country%></h4>
+                        </div><!-- .speaker -->
+                    </div><!-- .col-md-3 -->
+                <%end %>
+            </div><!-- .row -->
+        </section><!-- .speakers -->
+    </div><!-- .container -->
+</section>
+<!-- end Speakers -->
