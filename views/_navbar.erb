@@ -16,17 +16,21 @@
                 <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
                     <ul class="nav navbar-nav">
                         <% if @active_section == "index" %>
-                            <li><a href="#top" class="fade-in">¡Próximamente!</a></li>
-                            <li><a href="#schedule" class="fade-in">Sesiones</a></li>
-                            <li><a href="#speakers" class="fade-in">Speakers</a></li>
-                            <li><a href="#about" class="fade-in">Sesiones Pasadas</a></li>
+                        <li><a href="#speakers" class="fade-in">Equipo</a></li>
+                            <li><a href="#events" class="fade-in">Eventos</a></li>
+                            <li><a href="#webinars" class="fade-in">Webinars</a></li>
+                            <li><a href="#categories" class="fade-in">Categorias</a></li>
+                            <li>
+                                <input type="text" class="form-control" placeholder="Buscar">
+                            </li>
                         <% else %>
-                            <li><a href="/" class="fade-in">¡Próximamente!</a></li>
+                            <li><a href="/" class="fade-in">Eventos</a></li>
                             <li><a href="/#schedule" class="fade-in">Sesiones</a></li>
-                            <li><a href="/#speakers" class="fade-in">Speakers</a></li>
+                            <li><a href="/#speakers" class="fade-in">Equipo</a></li>
                             <li><a href="/#about" class="fade-in">Sesiones Pasadas</a></li>
                         <% end %>
                     </ul>
+
                 </nav><!-- /.navbar collapse-->
             </div>
         </header><!-- /.navbar -->

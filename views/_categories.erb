@@ -1,0 +1,10 @@
+<section id="categories" class="block">
+
+    <div class="container">
+        <h1>Temas por categoría</h1>
+        <br>
+        <% @tags.each do |tag_code, tag_name| %>
+          <a href="/<%=session[:locale]%>/blog/tag/<%=tag_code%>"><span class="label label-large label-primary"><%= tag_name %></span></a>
+        <% end %>
+    </div>
+</section>

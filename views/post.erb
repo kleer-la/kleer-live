@@ -129,7 +129,7 @@
 
 
 <div class="container marketing">
-	
+
   <div class="row-fluid" style="height: 30px;">
   </div>
 
@@ -147,7 +147,7 @@
       </sup>
       <hr/>
       <% end %>
-	
+
 		  <!-- START THE FEATURETTES -->
 
 		  <%= @markdown_renderer.render( parse( @post.body ) ) %>
@@ -199,7 +199,7 @@
       <!--End mc_embed_signup-->
       </div>
       </div>
-		
+
 		  <hr class="featurette-divider"/>
         <div class="row-fluid">
           <div class="span1">
@@ -219,14 +219,14 @@
 					<div align="right"><a href="/<%=session[:locale]%>/blog/<%=@post.next.codename%>"><%=@post.next.title%> >></a></div>
 				  </div>
 			  <% end %>
-		  
+
 		  	  <% if !@post.prev.nil? %>
 				  <div class="row-fluid">
 					<div align="left"><a href="/<%=session[:locale]%>/blog/<%=@post.prev.codename%>"><< <%=@post.prev.title%></a></div>
 				  </div>
 			  <% end %>
 		  <% end %>
-		  
+
 
 		  <hr class="featurette-divider">
 
@@ -302,8 +302,8 @@
       </div>
       </div>
 	</div>
-  
+
   </div>
 
-  
+
   </div><!-- /.container -->

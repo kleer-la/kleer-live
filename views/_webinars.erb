@@ -1,0 +1,53 @@
+<!-- Speakers -->
+<section id="webinars" class="block">
+    <div class="container">
+        <h1>Webinars</h1>
+            <div id="owl-webinars" class="owl-carousel owl-theme">
+
+                <% @blog_posts.each do |key, post| %>
+                <div class="col-md-12">
+                    <div class="thumbnail">
+                        <div class="row">
+                          <hr/>
+                          <div class="col-md-12">
+                              <div class="information">
+                                 <!-- <div class="date">
+                                      <%=post.day%>/<%=post.month%>/<%=post.year%>
+                                  </div>-->
+                                  <div class="location"><h3><%=post.title%></h3></div>
+                                  </div><!-- .information -->
+                              <hr>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="video">
+                                  <iframe width="250" height="140" src="https://www.youtube.com/embed/<%=post.video_code%>" frameborder="0" allowfullscreen></iframe>
+                              </div><!-- .video -->
+                          </div><!-- .col-md-12 -->
+                        </div><!-- .row -->
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p><%=post.more%></p>
+                            </div>
+                        </div>
+                        <!--<div class="row">
+                            <div class="col-md-12">
+                                  <% if post.tags.size > 0 %>
+                                      <%=t("published_under")%>:<br/>
+                                      <% post.tags.each do |tag_code, tag_name| %>
+                                        <a href="/<%=session[:locale]%>/tag/<%=tag_code%>"><span class="label label-large label-primary"><%= tag_name %></span></a>
+                                      <% end %>
+                                    <% end %>
+                              </div>
+                          </div>-->
+                    </div>
+                </div>
+
+
+
+                <% end %>
+            </div><!-- .row -->
+    </div><!-- .container -->
+</section>
