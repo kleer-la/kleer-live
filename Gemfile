@@ -13,7 +13,6 @@ gem 'haml'
 
 group :development do
   gem 'foreman'
-#  gem 'heroku' --> The `heroku` gem has been deprecated and replaced with the Heroku Toolbelt. Download and install from: https://toolbelt.heroku.com
 end
 
 group :development, :test do
