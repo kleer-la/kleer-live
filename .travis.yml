@@ -1,17 +1,19 @@
 language: ruby
 rvm:
-  - 2.1.2
-
+- 2.1.2
 before_install:
-  - gem update --system
-  - gem --version
-
+- gem update --system
+- gem --version
 script:
-    - bundle install
-    - bundle exec rspec
-    - bundle exec cucumber
-
-# whitelist
+- bundle install
+- bundle exec rspec
 branches:
   only:
-    - develop
+  - develop
+deploy:
+  provider: heroku
+  app:
+    develop: kleer-live-test
+  api_key:
+    secure: gIXITJseps1px3nJl+MaET04lS5q8WcFiF1sqCBzLe7UrvYtCFSuOaeMbNEcq0qrxeFjh7v3sOYFKvUTbqPTOaaHCNIdYIDQ6htByUdXTj/Q1FstshM9qNlspgCOw7pcook2lMGSOqtZN1SHBE8MsWiTQrH9fe/XuL0QFdcunGI+HQZzszC3tRoSL6k0st8ZqaPbhosG5ZJpToPH0az4tdIxRBN1XGUj4xgqNF1f96okzG7qJCn6jIr7f7Yz/PxP8k8rvOebMBC65KLgTXyiqi29w/aPp7eId5d5m9bk/CvGCVdwOJiA0IFbr3iSQX+an5XfkW5xtEOB8OLi1MoXL9ZCoPVILo1TpdHEDzZQuRJejKYhIqV1JaLvki4kCCRHW98WpUi7P+TomLalXM/Ezi8d70wOwRd3VodwaH3NuEtm860qdgo5FuOwtWw8eWURzfRienb8SX+0ZIY6WIUNGhy2YlUEAasuXXEgo50R8F4CwN6r3jB5JZeJG7/2ZcF+BL40+bRvvInZnFzo0/Z+fj6TdM4/oY1REh6FwbNJGtwiPnCviMM6RtucyRPaxbX7CDnKSJXb48WQIic1uM6LgnNwbHE33uz3IF0Pljn2tK9/X+c4gSBQxsa/ZwVojexPoAtrZ4X+uEipJrx88z0IzbG9ypSZZTgShA41ZQgZNvE=
+  on: develop
